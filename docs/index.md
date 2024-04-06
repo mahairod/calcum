@@ -1,4 +1,3 @@
----
 # Calc
 ### Big Number Calculator
 
@@ -9,5 +8,3 @@ or approximately 19-digits decimal precision.
 The app also handles raw text.
 
 Additional functionality can be added by custom functions.
----
----
