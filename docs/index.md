@@ -1,7 +1,7 @@
 ---
 # some comment here
 
-layout: home
+#layout: home
 ---
 
 # Calc
