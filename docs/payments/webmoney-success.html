@@ -1,10 +1,15 @@
 <html> 
 <head>
- Payment success
-</head> 
-<body> 
+ <title>
+ 	Payment success
+ </title>
+ <script src="segment-script.js" />
+</head>
+<body>
 <h3>Payment success form</h3>
-<form method="<метод вызова Success URL>" action="<Success URL>">
+<form method="POST" action="https://api.segment.io/v1/track">
+  <input type="hidden" name="writeKey" value="yK1UvGYvuNBdoSFmsstmmzgKUO2Iwda4">
+  <input type="hidden" name="event" value="webmoney-payment-success">
   <input type="hidden" name="LMI_PAYMENT_NO" value="1">
   <input type="hidden" name="LMI_SYS_INVS_NO" value="281">
   <input type="hidden" name="LMI_SYS_TRANS_NO" value="558">
