@@ -4,7 +4,7 @@
 #layout: home
 ---
 
-# Calc
+# Calcum
 ### Big Number Calculator
 
 This is the site about simple calculator which serves
