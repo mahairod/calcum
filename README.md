@@ -1,4 +1,4 @@
-# Calc
+# Elliptica BigNum Calcum
 ### Big Number Calculator
 
 This is the pre-first start version of my simple calculator which serves
