@@ -1,7 +1,7 @@
 ---
 # some comment here
 
-layout: home
+#layout: home
 ---
 
 # Calcum
@@ -26,7 +26,7 @@ Hope this app would be usefull for you.
 
 #### Here's the full list of releases:
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.tags["releases"] %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
