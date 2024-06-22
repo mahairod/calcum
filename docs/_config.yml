@@ -23,7 +23,7 @@ url: "calc.astafiev.me" # the base hostname & protocol for your site, e.g. http:
 twitter_username: mahairod
 github_username:  mahairod
 
-#show_downloads: true
+show_downloads: true
 
 # Build settings
 markdown: kramdown
