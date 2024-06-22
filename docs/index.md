@@ -1,7 +1,7 @@
 ---
 # some comment here
 
-#layout: home
+layout: home
 ---
 
 # Calcum
@@ -15,6 +15,7 @@ The app also handles raw text.
 
 Additional functionality can be added by custom functions.
 
+### Releases
 
 I'm glad to announce that first version of Big Number Calculator (Calcum) is
 available for public
@@ -23,3 +24,11 @@ Here you can find an installer for windows: [link](https://github.com/mahairod/c
 
 Hope this app would be usefull for you.
 
+#### Here's the full list of releases:
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
