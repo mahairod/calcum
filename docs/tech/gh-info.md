@@ -8,8 +8,9 @@ permalink: gh-info
 
 ### GitHub info:
 
-{% for field in site.github %}
-<!--  * [{{ field }}]({{ site.github[field] }})
--->
-{% endfor %}
+{% for field in site.github -%}
+	{% if field[0] contains "url" -%}
+ * [{{ field[0] }}]({{ field[1] }})
+	{% endif -%}
+{% endfor -%}
 
