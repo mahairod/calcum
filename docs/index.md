@@ -26,9 +26,9 @@ Hope this app would be usefull for you.
 
 #### Here's the full list of releases:
 <ul>
-  {% for post in site.tags["releases"] %}
+  {% for release in site.releases %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ release.url }}">{{ release.title }}</a>
     </li>
   {% endfor %}
 </ul>
