@@ -25,10 +25,6 @@ Here you can find an installer for windows: [link](https://github.com/mahairod/c
 Hope this app would be usefull for you.
 
 #### Here's the full list of releases:
-<ul>
-  {% for release in site.releases %}
-    <li>
-      <a href="{{ release.url }}">{{ release.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% for release in site.releases %}
+  - [{{ release.title }}]({{ release.url }}
+{% endfor %}
