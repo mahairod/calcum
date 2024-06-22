@@ -9,6 +9,7 @@ permalink: gh-info
 ### GitHub info:
 
 {% for field in site.github %}
-  * [{{ field }}]({{ site.github[field] }})
+<!--  * [{{ field }}]({{ site.github[field] }})
+-->
 {% endfor %}
 
