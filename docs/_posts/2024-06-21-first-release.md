@@ -1,5 +1,5 @@
 ---
-#layout: post
+layout: default
 title:  "First release"
 date:   2024-06-21 21:30:00 +0000
 categories: start releases
