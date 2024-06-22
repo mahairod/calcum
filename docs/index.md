@@ -26,5 +26,5 @@ Hope this app would be usefull for you.
 
 #### Here's the full list of releases:
 {% for release in site.releases %}
-  - [{{ release.title }}]({{ release.url }}
+  - [{{ release.title }}]({{ release.url }})
 {% endfor %}
