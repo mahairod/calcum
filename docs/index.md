@@ -27,9 +27,7 @@ Additional functionality can be implemented by custom functions. You can write t
 built-in operators and functions.
 
 #### Technical details
-BigNum Calcum makes computations in
-<span style="color:green"> *arbitrary precision* </span>
-arithmetic with integer
+BigNum Calcum makes computations in integer arithmetic with
 numbers represented by exactly 64 bits. It is able to handle large integer numbers
 with more than 15 digits in a decimal value representation.
 So additionally it can process numbers with 16 to 19 decimal digits.
