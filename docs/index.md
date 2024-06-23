@@ -1,19 +1,40 @@
 ---
-# some comment here
+# Calcum home page
 
-#layout: home
+layout: page
 ---
 
 # Calcum
 ### Big Number Calculator
 
-This is the site about simple calculator which serves
-the need of calculations with big numbers i.e. numbers with 64-bit precision
-or approximately 19-digits decimal precision.
+This is the site of
+<span style="color:blue"> ***spreadsheet*** </span>
+calculator which serves the need of calculations with
+<span style="color:blue"> ***big numbers*** </span>
+i.e. numbers with 64-bit precision
+or approximately *19-digits* decimal precision.
 
+
+### Features
+
+Calcum offers simplified syntax for mathematical operations:
+they look like regular operators in a typical math formula.
 The app also handles raw text.
 
-Additional functionality can be added by custom functions.
+Calcum supports several predefined arithmetic and string functions.
+
+Additional functionality can be implemented by custom functions. You can write them using
+built-in operators and functions.
+
+#### Technical details
+BigNum Calcum makes computations in
+<span style="color:green"> *arbitrary precision* </span>
+arithmetic with integer
+numbers represented by exactly 64 bits. It is able to handle large integer numbers
+with more than 15 digits in a decimal value representation.
+So additionally it can process numbers with 16 to 19 decimal digits.
+There is no limitation of standard Excel-style (or LibreOffice Calc-style) computations in double-precision floating-point format
+which gives you at most 14 or 15 digits precision and rounding errors for values exceeding this limit.
 
 ### Releases
 
