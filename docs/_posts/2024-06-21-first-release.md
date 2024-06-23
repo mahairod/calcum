@@ -17,8 +17,8 @@ Here you can find an installer for windows: [link](https://github.com/mahairod/c
   - Expandable 2-dimensional table of cells
 - Each cell can contain integral number, text or formula, hexademical number format is supported
 - Very big numbers are supported, with mantissa up to ~ 19 decimal digits
-- Formulas support basic arithmetic operations: + - * / %. There is also support for bit shifts: << and >>
-- Text concatenates with +
+- Formulas support basic arithmetic operations: ```+``` ```-``` ```*``` ```/``` ```%```. There is also support for bit shifts: ```<<``` and ```>>```
+- Text concatenates with ```+```
 - Formulas can use custom fuctions which can be defined separately as a simple text
   - Predefined functions are available (mostly for string/character and list processing)
 - Basic cells editing, row and columns insetion preserving correct order
