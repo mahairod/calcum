@@ -8,9 +8,9 @@ layout: page
 ### Big Number Calculator
 
 This is the site of
-<span style="color:blue"> ***spreadsheet*** </span>
+<span style="color:green"> ***spreadsheet*** </span>
 calculator which serves the need of calculations with
-<span style="color:blue"> ***big numbers*** </span>
+<span style="color:green"> ***big numbers*** </span>
 i.e. numbers with 64-bit precision
 or approximately *19-digits* decimal precision.
 
