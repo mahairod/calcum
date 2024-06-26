@@ -17,9 +17,9 @@
 title: Big Number Calculator
 email: calcum@elliptica.ru
 description: >- # this means to ignore newlines until "baseurl:"
-  Public documentation for Big Number Calculator application.
+  Big Number Calculator application.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "calc.astafiev.me" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mahairod
 github_username:  mahairod
 
