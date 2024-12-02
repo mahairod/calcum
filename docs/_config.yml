@@ -42,6 +42,7 @@ github:
 
 include:
    - ".well-known"
+   - ".well-known/acme-challenge"
    - ".well-known/**"
 
 # Exclude from processing.
