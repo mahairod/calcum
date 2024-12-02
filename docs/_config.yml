@@ -40,7 +40,8 @@ github:
   zip_url: https://github.com/mahairod/calcum/releases/download/v0.6.4-alfa/CalcumSetup.msi
   tar_url: https://github.com/mahairod/calcum/releases/download/v0.6.4-alfa/CalcumSetup.msi
 
-include: [".well-known"]
+include:
+   - ".well-known"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
